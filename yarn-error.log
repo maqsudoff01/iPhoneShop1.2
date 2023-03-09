@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\3-zona 6-komp\.node\corepack\yarn\1.22.15\bin\yarn.js add react-slick
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\3-zona 6-komp\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\3-zona 6-komp\AppData\Local\Programs\Python\Python310\;C:\Users\3-zona 6-komp\AppData\Local\Microsoft\WindowsApps;;C:\Users\3-zona 6-komp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\3-zona 6-komp\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Maqsadbek files\yanado`grichiqdi\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "yanado-grichiqdi",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.7.1"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.27",
+      "@types/react-dom": "^18.0.10",
+      "@vitejs/plugin-react": "^3.1.0",
+      "autoprefixer": "^10.4.13",
+      "postcss": "^8.4.21",
+      "tailwindcss": "^3.2.7",
+      "vite": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
